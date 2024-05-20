@@ -1,0 +1,61 @@
+[
+	{
+		"model": "students.students",
+		"pk": 1,
+		"fields": { "first_name": "vovan", "last_name": "dotan" }
+	},
+	{
+		"model": "students.products",
+		"pk": 1,
+		"fields": {
+			"name": "Лимонад",
+			"description": "из натуральных лимонов",
+			"preview": "",
+			"category": "Напитки",
+			"price": 100,
+			"date_create": "2024-05-20T09:36:19Z",
+			"date_change": "2024-05-20T09:37:55Z"
+		}
+	},
+	{
+		"model": "students.products",
+		"pk": 2,
+		"fields": {
+			"name": "слива",
+			"description": "слива",
+			"preview": "students/49-1.jpg",
+			"category": "фрукты",
+			"price": 50,
+			"date_create": "2024-05-20T09:59:18Z",
+			"date_change": "2024-05-20T09:59:18Z"
+		}
+	},
+	{
+		"model": "students.category",
+		"pk": 1,
+		"fields": { "name": "фрукты", "description": "растут на грядках" }
+	},
+	{
+		"model": "students.category",
+		"pk": 2,
+		"fields": {
+			"name": "напитки",
+			"description": "соки, лимонады, прочие безалкогольные напитки"
+		}
+	},
+	{
+		"model": "students.category",
+		"pk": 13,
+		"fields": {
+			"name": "готовое питание",
+			"description": "приготовленные скоропортящиеся продукты"
+		}
+	},
+	{
+		"model": "students.category",
+		"fields": {
+			"name": "соленья",
+			"description": "консервированные соленья"
+		}
+	}
+]
